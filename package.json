@@ -7,7 +7,7 @@
     "test": "cesde"
   },
   "author": "Juan Ocampo",
-  "license": "ISC"
+  "license": "ISC",
   "dependecies":{
   "bootstrap": "^4.2.1",
   }
