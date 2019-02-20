@@ -8,4 +8,7 @@
   },
   "author": "Juan Ocampo",
   "license": "ISC"
+  "dependecies":{
+  "bootstrap": "^4.2.1",
+  }
 }
