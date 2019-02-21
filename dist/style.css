@@ -4,9 +4,11 @@
 .div {
   background: red;
   margin: 5px;
-  font-style: italic; }
-.body{
-  background: lightblue no-repeat fixed center;
+  font-style: italic;
+  padding: 15rem; }
 
-  background-repeat: repeat-x, no-repeat;
-}
+.table {
+  border-top: 1;
+  border-left: 1;
+  border-right: 1;
+  border-bottom: 1; }

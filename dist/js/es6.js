@@ -19,3 +19,8 @@ while (years <= 5 ){
 function alertjs(){
   alert("hello, this is ES6")
 }
+
+var cel = {marca:"Apple", fabrication: "2018", signal:"good" }
+console.log(cel.marca);
+console.log(cel.fabrication);
+console.log(cel.signal);

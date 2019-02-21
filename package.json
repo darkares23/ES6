@@ -1,19 +1,22 @@
 {
-  "name": "es6",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "node-sass": "^4.11.0",
-    "pug": "^2.0.3",
-    "sass": "^1.17.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "node-sass src/sass/app.scss dist/style.css",
-    "dist": "npm run compile-sass && npm run compile-pug",
-    "compile-pug": "pug src/pug/index.pug --out dist/"
-  },
-  "author": "Juan Ocampo",
-  "license": "ISC"
+ "name": "es6",
+ "version": "1.0.0",
+ "main": "index.js",
+ "dependencies": {
+   "node-sass": "^4.10.0",
+   "pug": "^2.0.3"
+ },
+ "devDependencies": {},
+ "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1",
+   "compile-sass": "node-sass  src/sass/app.scss dist/style.css",
+   "dist": "npm run compile-sass && npm run compile-pug",
+   "compile-pug": "pug  src/pug/index.pug --out dist/"
+ },
+ "author": "Juan Ocampo",
+ "license": "ISC",
+ "dependencies": {
+   "pug": "^2.0.3",
+   "sass": "^1.17.0"
+ }
 }
