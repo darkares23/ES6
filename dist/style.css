@@ -1,4 +1,7 @@
-.col-sm-4{
+.alert {
+  background: red; }
+
+.div {
   background: red;
-  font-style: italic;
-}
+  margin: 5px;
+  font-style: italic; }
