@@ -5,3 +5,8 @@
   background: red;
   margin: 5px;
   font-style: italic; }
+.body{
+  background: lightblue no-repeat fixed center;
+
+  background-repeat: repeat-x, no-repeat;
+}

@@ -15,3 +15,7 @@ while (years <= 5 ){
   console.log('ya llevo '+ years + ' años programando');
   years++;
 }
+
+function alertjs(){
+  alert("hello, this is ES6")
+}
